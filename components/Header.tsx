@@ -1,7 +1,8 @@
+import { FC } from 'react';
 import Heading from './Heading';
 import Navbar from './Navbar';
 
-const Header = () => (
+const Header:FC = () => (
   <header>
     <Navbar />
   </header>

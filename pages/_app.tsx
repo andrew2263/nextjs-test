@@ -1,10 +1,11 @@
-import '@/styles/globals.scss';
+import { AppProps } from 'next/app';
+import '../styles/globals.scss';
 import Head from 'next/head';
-import Layout from '@/components/Layout';
+import Layout from '../components/Layout';
 import Image from 'next/image';
 import youtubeImg from '../public/logo.png';
 
-export default function App({ Component, pageProps }) {
+export default function App({ Component, pageProps }: AppProps) {
   return (
     <Layout>
       <Head>

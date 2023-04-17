@@ -1,6 +1,6 @@
 import Heading from "../components/Heading";
 import Head from "next/head";
-import Socials from "@/components/Socials";
+import Socials from "../components/Socials";
 
 import styles from '../styles/Home.module.scss';
 
